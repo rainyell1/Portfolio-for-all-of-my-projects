@@ -1,0 +1,5 @@
+# you can change the 1 in line 4 if you want to count for 0
+def count_bits(n):
+    binary = bin(n)[2:]
+    count = binary.count('1')
+    return count
