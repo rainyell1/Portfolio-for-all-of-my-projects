@@ -1,0 +1,3 @@
+# adding two integer then the sum of the two integer will be binary and then it will change into string
+def add_binary(a,b):
+    return str(bin(a+b)[2:])
